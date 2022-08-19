@@ -15,14 +15,22 @@ html{
 
 /*          <header>           */
 .header {
+        /* 1-й */
+  /* text-align: right; */
+        /* 2-й */
   display: flex;
   width: 100%;
+        /* 1-й */
   height: 100px;
   background: rgb(246, 246, 246);
   /* offset-x | offset-y | blur-radius | spread-radius | color */
   box-shadow: 0 0 5px 0 rgba(77, 77, 77, 0.5);
 }
 .header__logo{
+        /* 1-й */
+  /* line-height: 100px; */
+  /* padding-right: 40px; */
+        /* 2-й */
   margin: auto;
   margin-right: 40px;
   /* border: 3px dotted #aaa; */
